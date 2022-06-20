@@ -2,6 +2,9 @@ my:
   greeting: Hello World from config server
   list:
     values: One,Two,Three,Four
+app:
+  name: My app
+  descirption: Welcome to ${app.name}
 
 db:
   connection: connection-string-from-config-server
