@@ -7,6 +7,6 @@ app:
   descirption: Welcome to ${app.name}
 
 db:
-  connection: connection-string-from-config-server
+  connection: updated-connection-string-from-config-server
   host: 129.0.0.1
   port: 2400
